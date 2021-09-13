@@ -25,7 +25,6 @@ export default function Navbar() {
     history.push("/login");
   }
 
-  const drop = document.querySelector(".dropdown");
   const item = document.querySelector(".dropdown-content");
 
   function dropItem() {
