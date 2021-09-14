@@ -33,11 +33,11 @@ export default function Navbar() {
 
   return (
     <div className="nav">
-      <Link to="/">Main</Link>
+      <Link to="/">A RedeSocial</Link>
       <div className="dropdown" onClick={dropItem}></div>
       <div className="dropdown-content">
         <p>bem-vindo {user.login}</p>
-        <Link to="/">perfil</Link>
+        <Link to="/perfil">perfil</Link>
         <button className="btn-lgt" onClick={getLogout}>
           Logout
         </button>
